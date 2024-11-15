@@ -4,7 +4,7 @@ import com.geppetto.daedalustest.repository.UserRepository;
 import com.geppetto.daedalustest.dao.UserDao;
 
 import java.util.Optional;
-import com.geppetto.angjavaproject.model.Person;
+import com.geppetto.daedalustest.model.Externalpatients;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;

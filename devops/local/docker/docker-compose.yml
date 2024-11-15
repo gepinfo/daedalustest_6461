@@ -251,7 +251,7 @@ services:
     image: systementry-6461
     container_name: systementry-6461
     ports: 
-      - 8024:8024
+      - 8026:8026
     env_file: .env
     depends_on:
       - mongo
@@ -272,7 +272,7 @@ services:
     image: external-6461
     container_name: external-6461
     ports: 
-      - 8025:8025
+      - 8027:8027
     env_file: .env
     depends_on:
       - mongo

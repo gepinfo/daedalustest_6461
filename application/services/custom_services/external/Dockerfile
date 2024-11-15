@@ -14,7 +14,7 @@ RUN mvn clean install -Dmaven.test.skip=true
 RUN  mv /app/target/daedalustest-0.0.1-SNAPSHOT.jar .
 
 # Expose the port that your Spring Boot application will run on
-EXPOSE 8025
+EXPOSE 8027
 
 # Specify the default command to run when the container starts
 CMD ["java", "-jar", "daedalustest-0.0.1-SNAPSHOT.jar"]

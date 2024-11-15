@@ -33,6 +33,7 @@ const routes: Routes = [
 { path: 'admin', component: AdminComponent, canActivate: [AuthGuard] },
 
 { path : 'externalpatient', loadChildren: () => import('./externalpatient/externalpatient.module').then(m => m.ExternalpatientModule), canActivate: [AuthGuard] } , 
+{ path : 'hospitalorders', loadChildren: () => import('./hospitalorders/hospitalorders.module').then(m => m.HospitalordersModule), canActivate: [AuthGuard] } , 
 ];
 
 @NgModule({

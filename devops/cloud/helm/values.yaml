@@ -57,14 +57,14 @@ service:
   systementry: 
     name: systementry
     type: NodePort
-    port: 8024
-    targetPort: 8024
+    port: 8026
+    targetPort: 8026
 
   external: 
     name: external
     type: NodePort
-    port: 8025
-    targetPort: 8025
+    port: 8027
+    targetPort: 8027
 
 
 deployment:
