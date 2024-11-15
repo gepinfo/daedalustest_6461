@@ -1,0 +1,7 @@
+{
+  "name": "daedalustest",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
